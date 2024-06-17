@@ -12,12 +12,18 @@
         <section class="pagina-login">
             <div class="login">
                 <form action="" class="form-login">
-                    <label for="username">Usuário</label>
-                    <input type="text" name="username" id="username">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" id="senha">
 
-                    <button id="btnLogin" type="submit">Validar</button>
+                <div class="campo-input">
+                    <input type="text" name="username" id="username" required>
+                    <label for="username">Usuário</label>
+                </div>
+
+                <div class="campo-input">
+                    <input type="password" name="senha" id="senha" required>
+                    <label for="senha">Senha</label>
+                </div>
+
+                    <button id="btnLogin" type="submit">Validar</button></br>
                     <a href="esqueci.html">Equeci a Senha</a>
                 </form>
             </div>
