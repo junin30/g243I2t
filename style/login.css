@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url(padrao.css);
+@import url(cadastro.css);
 .pagina-login{
     background-color: #CAEBEC;
 }
@@ -36,6 +37,7 @@
     height: 50px;
     position: relative;
     margin: 1.5rem 0;
+    opacity: 40%;
 }
 .campo-input input{
     position: absolute;
